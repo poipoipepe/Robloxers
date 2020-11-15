@@ -31,16 +31,6 @@ body{
     margin: 0% 15%;
     font-family: 'Open Sans', sans-serif;
 }
-h1{
-    font-family: 'Amatic SC', cursive;
-    font-size: 100px;
-    margin: 5px;
-}
-h2{
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px;
-    margin: 5px;
-}
 #vulcao{
   display: block;
   margin-left: auto;
@@ -62,4 +52,8 @@ footer{
   margin: 0% -22%;
   width: 100%;
   background-position: top left;
+}
+#avatar{
+  margin: 0% 15%;
+  margin-left: 250px;
 }
