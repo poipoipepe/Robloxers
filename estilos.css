@@ -3,6 +3,7 @@ header {
   padding-top: 1em;
   text-align: center;
   color: white;
+  background-color: white;
 }
 
 header img{
@@ -39,6 +40,7 @@ body{
 }
 main{
   text-align: center;
+  background-color: white;
 }
 footer{
   text-align: center;
