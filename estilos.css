@@ -48,6 +48,11 @@ footer{
   padding-top: 2px;
   padding-bottom: 2px;
 }
+#fundo{
+  margin: 0% -22%;
+  width: 100%;
+  background-position: top left;
+}
 #avatar{
   margin: 0% 15%;
   margin-left: 250px;
