@@ -1,5 +1,4 @@
 header {
-  box-shadow: 2px 10px 10px rgba(0,0,0, .25);
   padding-top: 1em;
   text-align: center;
   color: white;
@@ -28,13 +27,18 @@ li a:link{
   text-decoration: none;
 }
 
+li a:hover{
+  color: rgb(135, 203, 226);
+}
+
 li a:visited {
   color: black;
 } 
 
 body{
-    margin: 0% 15%;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0% 15%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(219, 132, 132);
 }
 
 #vulcao{
@@ -47,22 +51,62 @@ body{
 main{
   text-align: center;
   background-color: white;
+  z-index: auto;
 }
 
 footer{
   text-align: center;
   font-family: "kaushan script";
-  background-color: rgba(149, 108, 202, 0.61);
+  background-color: rgb(159, 120, 211);
   font-size: 20px;
   padding-top: 2px;
   padding-bottom: 2px;
 }
-#fundo{
-  margin: 0% -22%;
-  width: 100%;
-  background-position: top left;
-}
-#avatar{
+
+.avatar{
   margin: 0% 15%;
-  margin-left: 250px;
+  position: relative;
+  left: 112px;
+  top: 22px;
+}
+
+.catalogo{
+  width: 600px;
+}
+
+table{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin: 0% 10%;
+}
+
+thead, td, table{
+  border: 1px solid black;
+}
+
+td strong{
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.jogos{
+  width: 100px;
+  margin-top: 10px;
+}
+
+th{
+  font-size: 1.3em;
+  border: 1px solid black;
+}
+
+td, th{
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  border: 1px solid black;
+  display: grid;
+  grid-row: 30% 70%;
 }
