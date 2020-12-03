@@ -14,34 +14,41 @@ ul{
     padding: 6px;
     background-color: rgb(250, 83, 83);
 }
+
 li {
   display: inline-block;
   list-style: none;
   margin-right: 20px;
   margin-left: 20px;
   font-size: 18px;
+
 }
 li a:link{
   color: white;
   text-decoration: none;
 }
+
 li a:visited {
   color: black;
 } 
+
 body{
     margin: 0% 15%;
     font-family: 'Open Sans', sans-serif;
 }
+
 #vulcao{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
 }
+
 main{
   text-align: center;
   background-color: white;
 }
+
 footer{
   text-align: center;
   font-family: "kaushan script";
