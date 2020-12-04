@@ -52,6 +52,7 @@ main{
   text-align: center;
   background-color: white;
   z-index: auto;
+  padding-bottom: 20px;
 }
 
 footer{
@@ -107,6 +108,12 @@ td, th{
   padding-bottom: 3px;
   padding-left: 10px;
   border: 1px solid black;
-  display: grid;
-  grid-row: 30% 70%;
+}
+
+.tamanho1 td, th{
+  width: 1000px;
+}
+
+.tamanho2 td, th{
+  width: 110px;
 }
