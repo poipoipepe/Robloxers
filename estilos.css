@@ -33,7 +33,7 @@ li a:hover{
 
 li a:visited {
   color: black;
-} 
+}
 
 body{
   margin: 0% 15%;
@@ -116,4 +116,47 @@ td, th{
 
 .tamanho2 td, th{
   width: 110px;
+}
+.info p{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 160%;
+  font-family: verdana;
+}
+.home p{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 160%;
+  font-family: verdana;
+}
+p{
+  line-height: 160%;
+  font-family: verdana;
+}
+.aav p{
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.avatpic img:hover{
+  transition: 150ms;
+  background-color: 	rgb(242, 242, 242);
+}
+.avatpic img:active{
+  background-color: white;
+  position: relative;
+  bottom: 10px;
+  right: 5px;
+}
+.random{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.legenda{
+  width: 100%;
+  text-align: center;
 }
