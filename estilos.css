@@ -3,6 +3,7 @@ header {
   text-align: center;
   color: white;
   background-color: white;
+  margin-bottom: -16px;
 }
 
 header img{
@@ -53,6 +54,7 @@ main{
   background-color: white;
   z-index: auto;
   padding-bottom: 20px;
+  padding-top: 16px;
 }
 
 footer{
@@ -136,20 +138,17 @@ p{
   line-height: 160%;
   font-family: verdana;
 }
-.aav p{
+.tam_p p{
   width: 50em;
   margin-left: auto;
   margin-right: auto;
 }
 .avatpic img:hover{
   transition: 150ms;
-  background-color: 	rgb(242, 242, 242);
+  background-color: rgb(242, 242, 242);
 }
 .avatpic img:active{
-  background-color: white;
-  position: relative;
-  bottom: 10px;
-  right: 5px;
+  background-color: rgb(204, 204, 204);
 }
 .random{
   width: 400px;
@@ -157,6 +156,8 @@ p{
   margin-right: auto;
 }
 .legenda{
-  width: 100%;
-  text-align: center;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
 }
